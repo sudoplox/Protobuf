@@ -1,7 +1,7 @@
 package main
 
 import (
-	example_simple "Protobuf/src/src.simple"
+	"Protobuf/src/simplepb"
 	"fmt"
 )
 func main() {
@@ -9,7 +9,7 @@ func main() {
 }
 
 func doSimple(){
-	sm := example_simple.SimpleMessage{
+	sm := simplepb.SimpleMessage{
 		Id: 12345,
 		IsSimple: true,
 		Name: "Sudo",
